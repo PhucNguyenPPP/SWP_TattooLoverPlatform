@@ -1,0 +1,388 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 25, 2023, 10:02:03 AM
+    Author     : hieu09097248
+*/
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Quicksand", sans-serif;
+    overflow-x: hidden;
+}
+
+.show {
+    display: block !important;
+}
+
+/*Header*/
+
+<<<<<<< HEAD
+/*Header*/
+
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+<<<<<<< HEAD
+    height: max-content;
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+    height: 101px;
+    flex-shrink: 0;
+    background: #000;
+    z-index: 1;
+}
+
+
+.header .btn-logo {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.header .btn-logo img {
+    width: 100%;
+    height: 90%;
+}
+
+.header .input-search {
+    font-family: Quicksand;
+    width: 766px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 25px;
+    margin-left: 140px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.header input::placeholder {
+    font-family: Quicksand;
+    padding-left: 0px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .search-icon {
+    margin-top: 32px;
+    margin-left: -45px;
+    font-size: 20px;
+    height: 33px;
+    background-color: gray;
+    opacity: 0.7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.header .search-icon:hover {
+    opacity: 0.5;
+}
+
+.header .btn-login {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .btn-signupstudio {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .btn-login:hover,
+.header .btn-signupstudio:hover,
+.header .btn-Signup:hover{
+    text-decoration: underline;
+}
+
+.header .btn-Signup {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .avatar-item {
+    margin-top: 2.75%;
+    margin-left: -3.5%;
+    margin-bottom: 1%;
+}
+<<<<<<< HEAD
+.header .avatar-item1{
+    margin-top: 1.6%;
+    margin-left: 2%;
+}
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+
+.header .avatar-img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.header .subnav-content {
+    display: none;
+}
+
+.header .subnav-content a {
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    margin-left: -150px;
+    background-color: rgba(30, 30, 30, 0.5);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.header .subnav-content a:hover {
+    background-color: #D9D9D9;
+    color: black;
+}
+
+.header .subnav-content a:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.header .subnav-content a:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.header .subnav-content i {
+    padding-right: 10px;
+}
+
+/*header phan quyen*/
+.header .btn-notification {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+
+}
+<<<<<<< HEAD
+.header .btn-notification1 {
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 60px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+
+}
+=======
+
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+.header .btn-signupstudio-af {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+}
+
+.header .btn-notification:hover,
+<<<<<<< HEAD
+.header .btn-signupstudio-af:hover,
+.header .btn-notification1:hover
+{
+    text-decoration: underline;
+}
+
+=======
+.header .btn-signupstudio-af:hover {
+    text-decoration: underline;
+}
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+/*footer*/
+.footer {
+    width: 100%;
+    height: 467px;
+    background: #000;
+    display: flex;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-service,
+.footer-contact,
+.footer-address {
+    width: 33.33%;
+    margin-top: 93px;
+    text-align: center;
+}
+
+
+.footer p {
+    text-align: justify;
+    width: 60%;
+    padding-left: 100px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+.service-title {
+    width: 700px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: -30px;
+}
+.update{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.search-bar {
+    width: 100%;
+    margin-left: -50px;
+}
+.search-bar-item {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+.search-bar-btn {
+    text-align: center;
+    width: fit-content;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #ECF2F9;
+    border:none;
+    margin-top: 26px;
+    margin-left: 15px;
+    padding: 20px 20px; 
+}
+.search-bar-btn:hover{
+    text-decoration: underline;
+}
+.search-bar input{
+    height: 35px;
+    width: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.search-bar-btn select{
+    font-family: Quicksand;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+.table-service{
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    font-family: Quicksand;
+
+}
+thead{
+    background-color: #ECF2F9;
+    width: fit-content;
+}
+th{
+    width: fit-content;
+}
+.input{
+    border: #000;
+    padding: 0px 0px;
+    text-align: center;
+    font-family: Quicksand;
+    width: 150px;
+}
+.del-btn{
+    background-color: transparent;
+    font-family: Quicksand;
+    border: #000 1px;
+}
+.input-search- {
+    font-family: Quicksand;
+    width: 786px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 25px;
+    margin-left: 140px;
+    font-size: 20px;
+}
+.search-icon- {
+
+    margin-left: -50px;
+    font-size: 20px;
+    height: 33px;
+    opacity: 0.7;
+    color: black;
+    border-radius: 5px;
+}
+
+.search-icon-:hover {
+    opacity: 0.5;
+}

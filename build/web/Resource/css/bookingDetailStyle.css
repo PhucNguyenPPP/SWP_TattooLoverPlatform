@@ -1,0 +1,634 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Quicksand;
+    overflow-x: hidden;
+}
+
+.show {
+    display: block !important;
+}
+
+/*Header*/
+
+<<<<<<< HEAD
+/*Header*/
+
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+<<<<<<< HEAD
+    height: max-content;
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+    height: 101px;
+    flex-shrink: 0;
+    background: #000;
+    z-index: 1;
+}
+
+
+.header .btn-logo {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.header .btn-logo img {
+    width: 100%;
+    height: 90%;
+}
+
+.header .input-search {
+    font-family: Quicksand;
+    width: 766px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 25px;
+    margin-left: 140px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.header input::placeholder {
+    font-family: Quicksand;
+    padding-left: 0px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .search-icon {
+    margin-top: 32px;
+    margin-left: -45px;
+    font-size: 20px;
+    height: 33px;
+    background-color: gray;
+    opacity: 0.7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.header .search-icon:hover {
+    opacity: 0.5;
+}
+
+.header .btn-login {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .btn-signupstudio {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .btn-login:hover,
+.header .btn-signupstudio:hover,
+.header .btn-Signup:hover{
+    text-decoration: underline;
+}
+
+.header .btn-Signup {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .avatar-item {
+    margin-top: 2.75%;
+    margin-left: -3.5%;
+    margin-bottom: 1%;
+}
+<<<<<<< HEAD
+.header .avatar-item1{
+    margin-top: 1.6%;
+    margin-left: 2%;
+}
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+
+.header .avatar-img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.header .subnav-content {
+    display: none;
+}
+
+.header .subnav-content a {
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    margin-left: -150px;
+    background-color: rgba(30, 30, 30, 0.5);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.header .subnav-content a:hover {
+    background-color: #D9D9D9;
+    color: black;
+}
+
+.header .subnav-content a:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.header .subnav-content a:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.header .subnav-content i {
+    padding-right: 10px;
+}
+
+/*header phan quyen*/
+.header .btn-notification {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+
+}
+<<<<<<< HEAD
+.header .btn-notification1 {
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 60px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+
+}
+=======
+
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+.header .btn-signupstudio-af {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+}
+
+.header .btn-notification:hover,
+<<<<<<< HEAD
+.header .btn-signupstudio-af:hover,
+.header .btn-notification1:hover
+{
+    text-decoration: underline;
+}
+
+
+=======
+.header .btn-signupstudio-af:hover {
+    text-decoration: underline;
+}
+
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+/*title*/
+.title {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    margin: 58px 0 46px 68px;
+}
+
+/*detail-content*/
+.detail {
+    width: 1192px;
+    margin-left: 134px;
+}
+
+/*detail-p1*/
+
+.detail-p1 {
+    background-color: #437ECC;
+    display: flex;
+    height: 90px;
+    border-radius: 5px 5px 0 0;
+}
+
+.detail-p1 .detail-p1-name {
+    display: flex;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 30px 0 0 42px;
+    width: 400px;
+}
+
+.detail-p1 .detail-p1-name label {
+    margin-right: 10px;
+}
+
+.detail-p1 .detail-p1-status {
+    background-color: #48AA30;
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    height: 52px;
+    border-radius: 5px;
+    margin-left: 440px;
+    margin-top: 19px;
+    padding: 0 30px;
+
+}
+
+.detail-p1 .detail-p1-status p,
+.detail-p1 .detail-p1-status label {
+    padding-top: 12px;
+
+}
+
+.detail-p1 .detail-p1-status label {
+    margin-right: 10px;
+}
+
+.detail-p1 .detail-p1-name p,
+.detail-p1 .detail-p1-status p {
+    margin: 0;
+}
+
+.underline {
+    width: 1192px;
+    background-color: #000;
+    height: 8px;
+}
+
+/*detail-p2*/
+.detail-p2 {
+    display: flex;
+    background-color: #ECF2F9;
+    height: 122px;
+    margin-top: 26px;
+    border-radius: 5px;
+}
+
+.detail-p2 .detail-p2-col1 {
+    padding-left: 44px;
+}
+
+.detail-p2 .detail-p2-col2 {
+    padding-left: 500px;
+}
+
+.detail-p2 .detail-p2-id,
+.detail-p2 .detail-p2-daybook,
+.detail-p2 .detail-p2-daycome,
+.detail-p2 .detail-p2-time {
+    display: flex;
+}
+
+.detail-p2 .detail-p2-id,
+.detail-p2 .detail-p2-daycome {
+    width: 250px;
+    padding-top: 20px;
+    padding-right: 44px;
+
+}
+
+
+.detail-p2 .detail-p2-daybook,
+.detail-p2 .detail-p2-time {
+    padding-top: 35px;
+}
+
+.detail-p2 .detail-p2-id label,
+.detail-p2 .detail-p2-daybook label,
+.detail-p2 .detail-p2-daycome label,
+.detail-p2 .detail-p2-time label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.detail-p2 .detail-p2-id p,
+.detail-p2 .detail-p2-daybook p,
+.detail-p2 .detail-p2-daycome p,
+.detail-p2 .detail-p2-time p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.detail-p2 .detail-p2-id p {
+    padding-left: 18px;
+}
+
+.detail-p2 .detail-p2-time p {
+    padding-left: 6px;
+}
+
+.detail-p3 {
+    display: flex;
+    background-color: #ECF2F9;
+    margin-top: 26px;
+    border-radius: 5px;
+}
+
+.detail-p3 .detail-p3-col1 {
+    width: 60%;
+}
+
+.detail-p3 .detail-p3-col2 {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.detail-p3 h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.detail-p3-col2 h1{
+    font-size: 25px;
+}
+
+.detail-p3-col1 .detail-content {
+    display: flex;
+    padding-left: 56px;
+}
+
+
+.detail-p3-col1 .detail-content .detail-content-col2 {
+    padding-top: 82px;
+    padding-left: 80px;
+}
+
+.detail-p3-col1 .detail-content .content-service,
+.detail-p3-col1 .detail-content .content-size,
+.detail-p3-col1 .detail-content .content-servicedetail,
+.detail-p3-col1 .detail-content .content-price,
+.detail-p3-col1 .detail-content .content-amount,
+.detail-p3-col1 .detail-content .content-artist {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.detail-p3-col1 .detail-content .content-service label,
+.detail-p3-col1 .detail-content .content-size label,
+.detail-p3-col1 .detail-content .content-servicedetail label,
+.detail-p3-col1 .detail-content .content-price label,
+.detail-p3-col1 .detail-content .content-amount label,
+.detail-p3-col1 .detail-content .content-artist label {
+    font-size: 20px;
+    font-weight: 600;
+    padding-right: 15px;
+}
+
+.detail-p3-col1 .detail-content .content-service p,
+.detail-p3-col1 .detail-content .content-size p,
+.detail-p3-col1 .detail-content .content-servicedetail p,
+.detail-p3-col1 .detail-content .content-price p,
+.detail-p3-col1 .detail-content .content-amount p,
+.detail-p3-col1 .detail-content .content-artist p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.detail-p3-col1 .detail-content .content-service p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.detail-p3-col2 .text-descript {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.detail-p3-col1 .total {
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 52px;
+    padding-bottom: 30px;
+}
+
+.detail-p3-col1 .total h1,
+.detail-p3-col1 .total p {
+    margin: 0;
+}
+
+.detail-p3-col1 .total p {
+    padding-left: 15px;
+}
+
+/*feedback*/
+/*rating*/
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.rate:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+}
+
+.rate:not(:checked)>label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+    content: '★ ';
+}
+
+.rate>input:checked~label {
+    color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+    color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+    color: #c59b08;
+}
+
+.feedback .feedback-rate {
+    display: flex;
+}
+
+.feedback .feedback-rate p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.feedback .btn-feedback {
+    border-radius: 5px;
+    background: #B32424;
+    width: 105px;
+    height: 33px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.feedback .btn-back {
+    border-radius: 5px;
+    background: black;
+    width: 105px;
+    height: 33px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.feedback .star-af-feedback {
+    color: #FFA800;
+    margin-top: 10px;
+}
+
+.feedback .cmt-af-feedback {
+        font-size: 20px;
+        display: inline;
+}
+
+.feedback .lb-cmt {
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feedback .btn-af-back {
+    border-radius: 5px;
+    background: black;
+    width: 105px;
+    height: 33px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0 10px 250px;
+}
+
+
+
+
+
+
+/*footer*/
+.footer {
+
+    width: 100%;
+    height: 370px;
+    background: #000;
+    display: flex;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.footer-service,
+.footer-contact,
+.footer-address {
+    width: 33.33%;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer-service{
+    width: 800px;
+    margin-right: -150px;
+    margin-left: -30px;
+}
+
+.footer-service h1{
+    margin-left: -90px;
+}
+
+.footer h1 {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer p {
+    text-align: justify;
+    width: 60%;
+    padding-left: 100px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.btn :hover{
+     opacity: 0.5;
+    text-decoration: underline;
+}
+.btn{
+    margin-top: -10%;
+    margin-left: 7%;
+    margin-bottom: 7%;
+}
+
+.back :hover{
+    opacity: 0.5;
+    text-decoration: underline;
+}

@@ -1,0 +1,319 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Quicksand;
+    overflow-x: hidden;
+}
+
+.show {
+    display: block !important;
+}
+
+/*Header*/
+
+<<<<<<< HEAD
+/*Header*/
+
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+<<<<<<< HEAD
+    height: max-content;
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+    height: 101px;
+    flex-shrink: 0;
+    background: #000;
+    z-index: 1;
+}
+
+
+.header .btn-logo {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.header .btn-logo img {
+    width: 100%;
+    height: 90%;
+}
+
+.header .input-search {
+    font-family: Quicksand;
+    width: 766px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin-top: 25px;
+    margin-left: 140px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.header input::placeholder {
+    font-family: Quicksand;
+    padding-left: 0px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .search-icon {
+    margin-top: 32px;
+    margin-left: -45px;
+    font-size: 20px;
+    height: 33px;
+    background-color: gray;
+    opacity: 0.7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.header .search-icon:hover {
+    opacity: 0.5;
+}
+
+.header .btn-login {
+    margin-top: 10px;
+    margin-left: 50px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .btn-signupstudio {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .btn-login:hover,
+.header .btn-signupstudio:hover,
+.header .btn-Signup:hover{
+    text-decoration: underline;
+}
+
+.header .btn-Signup {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    flex-direction: column;
+}
+
+.header .avatar-item {
+    margin-top: 2.75%;
+    margin-left: -3.5%;
+    margin-bottom: 1%;
+}
+<<<<<<< HEAD
+.header .avatar-item1{
+    margin-top: 1.6%;
+    margin-left: 2%;
+}
+=======
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+
+.header .avatar-img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.header .subnav-content {
+    display: none;
+}
+
+.header .subnav-content a {
+    display: block;
+    padding: 10px 10px;
+    color: white;
+    margin-left: -150px;
+    background-color: rgba(30, 30, 30, 0.5);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.header .subnav-content a:hover {
+    background-color: #D9D9D9;
+    color: black;
+}
+
+.header .subnav-content a:first-child {
+    border-radius: 10px 10px 0 0;
+}
+
+.header .subnav-content a:last-child {
+    border-radius: 0 0 10px 10px;
+}
+
+.header .subnav-content i {
+    padding-right: 10px;
+}
+
+/*header phan quyen*/
+.header .btn-notification {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+
+}
+<<<<<<< HEAD
+.header .btn-notification1 {
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 60px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+
+}
+=======
+
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+.header .btn-signupstudio-af {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    height: max-content;
+    font-size: 120%;
+}
+
+.header .btn-notification:hover,
+<<<<<<< HEAD
+.header .btn-signupstudio-af:hover,
+.header .btn-notification1:hover
+{
+=======
+.header .btn-signupstudio-af:hover {
+>>>>>>> 46860fd9c8195799510ba7b99c8b013849670722
+    text-decoration: underline;
+}
+
+/*footer*/
+.footer {
+
+    width: 100%;
+    height: 370px;
+    background: #000;
+    display: flex;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.footer-service,
+.footer-contact,
+.footer-address {
+    width: 33.33%;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer-service{
+    width: 800px;
+    margin-right: -150px;
+    margin-left: -30px;
+}
+
+.footer-service h1{
+    margin-left: -90px;
+}
+
+.footer h1 {
+    padding-bottom: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer p {
+    text-align: justify;
+    width: 60%;
+    padding-left: 100px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.footer i {
+    font-size: 50px;
+    margin-left: 20px;
+}
+h1,h3{
+    text-align: center;
+}
+table{
+    margin: 0 auto;
+    color: #FFF;
+    width: 700px;
+}
+thead, th{
+    background-color: black;
+    height:54px;
+    color: white;
+    font-size: 20px;
+}
+tr,td{
+    border: none;
+    background-color: #D9D9D9;
+    text-align: center;
+    color: black;
+    height: 54px;
+    font-size: 18px;
+}
+tr,td input{
+    font-family: Quicksand;
+    height: 25px;
+    width: 200px;
+    text-align: center;
+    font-size: 17px;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+}
+.confirm{
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: Quicksand;
+    background-color: #000;
+    color: #FFF;
+    padding:10px 15px;
+    font-size: 20px;
+}
+.confirm:hover{
+    text-decoration:underline; 
+}
